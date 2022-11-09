@@ -34,8 +34,8 @@ int get_function(const char *format, print_type argument[], va_list argp)
 					break;
 				}
 			}
-		    i++;
-		if (!argument[j].type)
+			i++;
+			if (!argument[j].type)
 			{
 				count += _putchar('%');
 				count += _putchar(format[i]);
