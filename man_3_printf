@@ -1,0 +1,44 @@
+man 3 printf
+
+NAME
+_printf
+
+SYNOPSIS
+#include "main.h"
+
+int _printf(const char *format, ...)
+
+_printf("%options",name of the variable)
+
+DESCRIPTION
+that print VARIABLEs or ARGUMENTs depending on the options used.
+
+OPTIONS
+if you use
+
+"%c" - that print a character.
+
+"%s" - that print a string.
+
+"%d" - that print a integer.
+
+"%i" - print same as "%d".
+
+"%%" - that print a percent sign.
+
+EXAMPLE:
+	
+	int age = 21;
+_printf(the age is:,"%d",age)
+
+and that print
+
+	the age is: 21
+
+AUTHOR
+Mustapha Rayane Elkefif and Caroline Chochoy
+
+DATE
+"10 novembre 2022"
+
+
