@@ -33,6 +33,7 @@ int print_integer(va_list argp);
 int print_number(va_list argp);
 int print_percent(va_list argp);
 int get_function(const char *format, print_type argument[], va_list argp);
+int print_binary(va_list argp);
 
 
 
