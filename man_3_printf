@@ -1,0 +1,45 @@
+.TH man 3 "10 November 2022" "0.01" "_printf man page"
+
+.SH NAME
+.B _printf
+
+.SH SYNOPSIS
+#include "main.h"
+
+int _printf(const char *format, ...)
+
+.B _printf("%options",name of the variable)
+
+.SH DESCRIPTION
+that print VARIABLEs or ARGUMENTs depending on the options used.
+
+.SH OPTIONS
+.B if you use
+
+.B %c - that print a character.
+
+.B %s - that print a string.
+
+.B %d OR %i - that print a integer.
+
+.B %% - that print a percent sign.
+
+.SH EXAMPLE:
+	
+	int age = 21;
+_printf(the age is:,"%d",age)
+
+and that print
+
+.B the age is: 21
+
+.SH RETURN
+.B Upon successful return, these functions return the number of characters printed (excluding the null byte used to end output to strings).
+.B If an output error is encountered, a negative value is returned.
+
+.SH BUGS
+If there are any bugs, or anything that does not work the way it working to, contact me in 5800@holbertonstudents.com
+
+.SH AUTHOR
+Mustapha Rayane Elkefif and Caroline Chochoy
+
