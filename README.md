@@ -28,6 +28,10 @@ We write a function that produces output according to a format.
 | print_integer | Prints an integer in base 10 | %d  or  %i  | [print_integer.c](  https://github.com/CaroChoch/holbertonschool-printf/blob/main/print_integer.c) | _printf("%d", '100')   or   printf("%i", '100') | 100 |
 | print_binary | Prints the binary form of the integer | %b | [print_binary.c]( ) | _printf("%b", '98') | 1100010 |
 
+## Our flowchart
+
+![flowchart](https://github.com/CaroChoch/holbertonschool-printf/blob/main/flowchart.svg)
+
 ## Compilation
 
 Our code can be compiled this way :
