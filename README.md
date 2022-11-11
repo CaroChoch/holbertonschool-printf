@@ -34,7 +34,7 @@ We write a function that produces output according to a format.
 
 ## Compilation
 
-Our code can be compiled this way :
+Our code can be compiled on Ubuntu 20.04 LTS by this way :
 
     $ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c
     
@@ -122,3 +122,9 @@ By typing the following command : ./a.out , you should get :
     Unknown:[%r]
     Unknown:[%r]
     
+
+## Authors
+
+- Caroline CHOCHOY  @CaroChoch
+- Mustapha Rayane Elkefif  @rayaneRX
+
