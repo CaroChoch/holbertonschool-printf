@@ -29,7 +29,11 @@ int print_binary(va_list argp)
 		len++;
 	}
 	for (j = len - 1; j >= 0; j--)
+	{
 		_putchar(array[j] + '0');
+	}
+		_putchar('\n');
+
 	return (len);
 }
 
