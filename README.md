@@ -38,6 +38,12 @@ Our code can be compiled on Ubuntu 20.04 LTS by this way :
 
     $ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c
     
+## Man page
+
+To enter the manual for the _printf function, type this command:
+
+        man ./man_3_printf
+    
 ## Testing the Program
 
 #### The main.c File Test
