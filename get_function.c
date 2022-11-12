@@ -42,13 +42,6 @@ int get_function(const char *format, print_type argument[], va_list argp)
 				count += _putchar(format[i]);
 			}
 
-		    i++;
-		    if (!argument[j].type)
-		    {
-			    count += _putchar('%');
-			    count += _putchar(format[i]);
-		    }
-
 	}
 	return (count);
 }
