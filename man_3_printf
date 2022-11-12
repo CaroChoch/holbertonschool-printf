@@ -1,0 +1,50 @@
+.\" Manpage for _printf project
+.TH man 3 "10 November 2022" "1.0" "_printf man page"
+
+.SH NAME
+._printf - formated output conversion
+
+.SH SYNOPSIS
+#include "main.h"
+
+int _printf(const char *format, ...)
+
+_printf FORMAT [argument]...
+
+.SH DESCRIPTION
+The _printf() function produces output according to "a format" as described below. Also, write output to "stdout", the standart output stream.
+The _printf() function writes the output under the control of a format string that specifies how subsequent arguments are converted for output.
+
+.B Conversion specifiers :
+
+.B %c - Prints a single character.
+
+.B %s - Prints a string of characters.
+
+.B %d or %i -  Prints a decimal integer.
+
+.B %% - Prints a single percent sign.
+
+.SH EXAMPLE:
+
+	_printf("%c", 'H');
+	The output is : 'H'
+
+	_printf("%s", "Hello World");
+	The output is : 'Hello World'
+
+	_printf("The age is : %d", 21);
+	The output is : 'The age is : 21'
+	
+
+.SH RETURN
+.B Upon successful return, these functions return the number of characters printed (excluding the null byte used to end output to strings).
+.B If an output error is encountered, a negative value is returned.
+
+.SH BUGS
+If there are any bugs, or anything that does not work the way it working to, contact me in 5800@holbertonstudents.com
+
+.SH AUTHOR
+Mustapha Rayane Elkefif and Caroline Chochoy
+
+
